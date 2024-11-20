@@ -11,9 +11,8 @@ A debug header for competitive programming.
 ## Setup
 Just clone this repo and include it with `-I/your-install-path` when compiling. That's it.
 
-Optionally, use an `#ifdef` statement like shown in the [example](#example) to disable debug statements when compiled on judge machines.
-
-## Example
+## Usage
+Use an `#ifdef` statement with some flag (here `-DLOCAL`) present on your machine but not the OJ to disable debug statements when being judged.
 
 ### sandbox.cpp
 ```cpp
