@@ -3,14 +3,15 @@
 A debug header for competitive programming.
 
 ## Features
+- Prints any combination of common STL containers
 - Single header, dependency-free
-- ANSI colors to distinguish debug text and for improved readability
-- Easily customizable output format
+- Colored and syntax-highlighted outputs
+- Smart formatting rules refined through practical use
 
 ## Setup
-Just clone this repo and include it with `-I/your-install-path` when compiling your solutions. That's all.
+Just clone this repo and include it with `-I/your-install-path` when compiling. That's it.
 
-Optionally, use an `#ifdef` statement like shown in the example below to disable debug statements when compiled on judge machines.
+Optionally, use an `#ifdef` statement like shown in the [example](#example) to disable debug statements when compiled on judge machines.
 
 ## Example
 
